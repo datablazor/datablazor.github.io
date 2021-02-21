@@ -60,7 +60,7 @@ module.exports = {
       {
         name: 'MOURI Tech',
         description: 'Senior Software Developer, July 2018 - Sept 2020',
-        link: 'www.mouritech.com',
+        link: 'https://www.mouritech.com',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
