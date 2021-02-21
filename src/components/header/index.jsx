@@ -59,6 +59,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
+          {(
+            <li className={classes.item}>
+              <a className={classes.link} href={`https://medium.com/@sunilrajthota/`}>
+                Medium
+              </a>
+            </li>
+          )}
           {!noBlog && (
             <li className={classes.item}>
               <Link className={classes.link} to="/blog">
