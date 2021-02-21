@@ -11,7 +11,7 @@ module.exports = {
     // Optional: Twitter account handle
     author: `@sunilraj17`,
     // Optional: Github account URL
-    github: `https://github.com/sunilrajthota`,
+    github: `https://github.com/datablazor`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/sunilrajthota/`,
     // Content of the About Me section
