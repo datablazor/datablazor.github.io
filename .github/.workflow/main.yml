@@ -1,0 +1,16 @@
+name: Publish dalablazor website
+
+on:
+  push:
+    branches: [ dev ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: enriikke/gatsby-gh-pages-action@v2.1.1
+        with:
+          access-token: ${{ secrets.portfoliosecret }}
+          deploy-branch: main
+          gatsby-args: --prefix-paths
