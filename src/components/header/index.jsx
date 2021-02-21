@@ -35,16 +35,6 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
-          {twitter && (
-            <li className={classes.item}>
-              <a
-                className={classes.link}
-                href={`https://twitter.com/${twitter}`}
-              >
-                Twitter
-              </a>
-            </li>
-          )}
           {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github}>
@@ -61,8 +51,39 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           )}
           {(
             <li className={classes.item}>
+              <a className={classes.link} href={`https://drive.google.com/file/d/1605RklpsfmcUy-iHmjdvKNrEcnuG1_5I/view?usp=sharing`}>
+                Resume
+              </a>
+            </li>
+          )}
+          {(
+            <li className={classes.item}>
+              <a className={classes.link} href={`https://drive.google.com/file/d/1aN2jEazhInCaP7Y4Yq5wsSSCuHCHt-Ak/view?usp=sharing`}>
+                Cover Letter
+              </a>
+            </li>
+          )}
+          {(
+            <li className={classes.item}>
+              <a className={classes.link} href={`https://drive.google.com/file/d/1NuDHg-wIS2SS3K2tu2SNlMeb2gBJeaqo/view?usp=sharing`}>
+                Academic Transcript
+              </a>
+            </li>
+          )}
+          {(
+            <li className={classes.item}>
               <a className={classes.link} href={`https://medium.com/@sunilrajthota/`}>
                 Medium
+              </a>
+            </li>
+          )}
+          {twitter && (
+            <li className={classes.item}>
+              <a
+                className={classes.link}
+                href={`https://twitter.com/${twitter}`}
+              >
+                Twitter
               </a>
             </li>
           )}
