@@ -110,7 +110,7 @@ module.exports = {
 //         path: `${__dirname}/content/blog`,
 //         name: `blog`,
 //       },
-    },
+//     },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
