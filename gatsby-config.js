@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Sunil Raj Thota | Data Blazor`,
     // Description that goes under your name in main bio
-    description: `Data`,
+    description: `Data Enthusiast | Actively looking for 2021 Summer/ Fall Internships/ Co-ops Opportunities!`,
     // Optional: Twitter account handle
     author: `@sunilraj17`,
     // Optional: Github account URL
@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/sunilrajthota/`,
     // Content of the About Me section
-    about: `About me content here`,
+    about: `I'm currently pursuing a Master's Degree in the fields of Data Analytics at Northeastern University, Boston | Will Graduate by Summer 2022`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
