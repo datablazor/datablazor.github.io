@@ -68,12 +68,12 @@ module.exports = {
       {
         name: 'Languages',
         description:
-          'Python, R, SQL, T-SQL, SAS, HTML, CSS, JavaScript (ES6+), Scss, Sass',
+          'Python, R, SQL, T-SQL, SAS, HTML, CSS, JavaScript (ES6+)',
       },
 	  {
         name: 'Frameworks',
         description:
-          'MS Excel, Tableau, Power BI, SPSS, R Shiny, Apache Superset, Bootstrap 4, Angular, React.js, Vue JS, Node.js, Express.js',
+          'MS Excel, Tableau, Power BI, SPSS, R Shiny, Apache Superset, Bootstrap 4, Angular, React.js, Vue JS',
       },
       {
         name: 'Databases & Cloud' ,
@@ -81,12 +81,12 @@ module.exports = {
       },
 	  {
 		  name: 'Machine Learning',
-		  description: 'Linear Regression, Logistic Regression, Classification, PCA, SVM, Decision Tree, Random Forest, Gradient Boosting, XG Boosting',
+		  description: 'Linear Regression, Logistic Regression, Classification, PCA, SVM, Decision Tree, Random Forest, Gradient Boosting, XG Boost',
 	  },
       {
         name: 'Other',
         description:
-          'Git, JIRA, MS Word, MS PPT, Bitbucket, Agile, Scrum, Product Management, Lean, Six Sigma, Jupyter Notebook, Google CoLab',
+          'Git, JIRA, MS Word, npm, pip, MS PPT, Bitbucket, Agile, Scrum, Product Management, Lean, Six Sigma, Jupyter Notebook, Google CoLab',
       },
 	  {
         name: 'Competencies ',
